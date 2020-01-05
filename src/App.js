@@ -1,6 +1,6 @@
 import React from 'react';
-import  { Input } from './components/input';
-import { ToDoList } from './components/todoList';
+import  { Input } from './components/Input';
+import { ToDoList } from './components/TodoList';
 import { useState } from 'react';
 
 
