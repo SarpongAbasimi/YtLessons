@@ -7,7 +7,7 @@ export const ToDoList = ({ toDoList }) => {
     {/* It is being used here because this is a very simple example. */}
       {toDoList.map((todos, index) => {
         return(
-          <li key={index}>{todos}</li>
+          <li key={index} className='todos'>{todos}</li>
         );
       })}
     </div>
